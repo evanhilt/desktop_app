@@ -1,0 +1,23 @@
+{
+  "main.css": "/desktop_app/static/css/main.6de24262.chunk.css",
+  "main.js": "/desktop_app/static/js/main.376eb538.chunk.js",
+  "main.js.map": "/desktop_app/static/js/main.376eb538.chunk.js.map",
+  "static/js/1.ed7648a3.chunk.js": "/desktop_app/static/js/1.ed7648a3.chunk.js",
+  "static/js/1.ed7648a3.chunk.js.map": "/desktop_app/static/js/1.ed7648a3.chunk.js.map",
+  "runtime~main.js": "/desktop_app/static/js/runtime~main.4ec9e51c.js",
+  "runtime~main.js.map": "/desktop_app/static/js/runtime~main.4ec9e51c.js.map",
+  "static/media/logo.svg": "/desktop_app/static/media/logo.5d5d9eef.svg",
+  "static/media/arrow.svg": "/desktop_app/static/media/arrow.2ba01b63.svg",
+  "static/media/sunny.svg": "/desktop_app/static/media/sunny.3069df4e.svg",
+  "static/media/partly_cloudy.svg": "/desktop_app/static/media/partly_cloudy.fac1f0db.svg",
+  "static/media/cloudy.svg": "/desktop_app/static/media/cloudy.41dc88e9.svg",
+  "static/media/rain.svg": "/desktop_app/static/media/rain.106a30f3.svg",
+  "static/media/sleet.svg": "/desktop_app/static/media/sleet.9470a13b.svg",
+  "static/media/snow.svg": "/desktop_app/static/media/snow.64f133df.svg",
+  "static/media/hail.svg": "/desktop_app/static/media/hail.70b75120.svg",
+  "static/media/none.svg": "/desktop_app/static/media/none.23a912b0.svg",
+  "static/css/main.6de24262.chunk.css.map": "/desktop_app/static/css/main.6de24262.chunk.css.map",
+  "index.html": "/desktop_app/index.html",
+  "precache-manifest.31d9821b398706639d482e0eb14787ec.js": "/desktop_app/precache-manifest.31d9821b398706639d482e0eb14787ec.js",
+  "service-worker.js": "/desktop_app/service-worker.js"
+}
