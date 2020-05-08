@@ -1,6 +1,6 @@
 {
-  "homepage": "http://evanhilt.github.io/desktop_app",
-  "name": "desktop_app",
+  "homepage": "http://evanhilt.github.io/weather_finder",
+  "name": "weather_finder",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
