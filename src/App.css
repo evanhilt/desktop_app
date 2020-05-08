@@ -1,0 +1,338 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dc6728; /* golden orange */
+}
+
+input {
+  width: 85%;
+}
+
+.icons {
+  height: 250px;
+}
+
+.icons_small {
+  height: 160px;
+  margin-bottom: 15px;
+}
+
+.emptyIcon {
+  height: 200px;
+  width: 2px;
+  margin-bottom: 15px;
+}
+
+.cloudIcons {
+  margin-right: 40px;
+}
+
+.arrowIcon {
+  margin-top: 70px;
+  height:200px;
+}
+
+.App {}
+
+.App-header {
+  /* display: flex; */
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #474f5f;
+  padding: 20px;
+  position: fixed;
+  filter: drop-shadow(0 0 10px #333);
+}
+
+.App-section {
+  height: 800px;
+  padding-top: 160px;
+  text-align: center;
+  align-content: center;
+}
+
+.tabs {
+  float: right;
+  text-align: right;
+  margin-right: 40px;
+}
+
+.extendingSection {
+  padding-bottom: 160px;
+  padding-top: 160px;
+  text-align: center;
+  align-content: center;
+  background-color: #d9dbe0; /* light gray */
+}
+
+.home {
+  background-color: #d9dbe0; /* light gray */
+}
+
+.temperature {
+  background-color: #f19c36; /* sunset orange */
+  background-color: #63aae3; /* sky blue */
+}
+
+.cloudCover {
+  background-color: #ab3429; /* sunset rust */
+  background-color: #588bc0; /* cloudy blue */
+  text-align: center;
+}
+
+.precipitation {
+  background-color: #FFFFFF; /*  */
+  background-color: #7e5fa9; /*Violet Twilight*/
+  background-color: #404e9d; /*Blue Twilight*/
+}
+
+.wind {
+  background-color: #000000; /*  */
+  background-color: #0b173a; /*Blue Midnight*/
+}
+
+.App-body {}
+
+.App-link {
+  color: #61dafb;
+}
+
+.headerText {
+  color: #cce5ff;
+}
+
+.headerText.WeatherFinder {
+  font-family: 'Pacifico';
+  font-size: 32px;
+}
+
+.headerText.Categories {
+  font-family: 'Oswald';
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.bigText {
+  font-family: 'Oswald';
+  font-size: 60px;
+  color: #065eb0; /* Denim blue */
+}
+
+.descriptonText {
+  font-size: 50px;
+}
+
+.precipitationText {
+  color: #63aae3;
+}
+
+.cloudText {
+  color: #10407d; /*Dark Blue*/
+}
+
+.windTempText {
+  font-size: 110px;
+}
+
+.logoText {
+  color: #dc6728; /* golden orange */
+  font-family: 'Pacifico';
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 90px;
+}
+
+.cloudContainer {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.windTempSelect {
+  height: 400px;
+  width: 900px;
+  border-radius: 75px;
+}
+
+.cloudCoverSelect {
+  height: 400px;
+  width: 1200px;
+  border-radius: 75px;
+  padding-top: 30px;
+}
+
+.precipitationSelect {
+  height: 350px;
+}
+
+.weather {
+  height: auto;
+  width: 400px;
+  border-radius: 75px;
+  padding: 50px;
+}
+
+.weather-text {
+  font-family: 'Oswald';
+  text-align: left;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.message-text {
+  font-family: 'Oswald';
+  text-align: left;
+  font-size: 30px;
+  padding: 10px;
+  color: #065eb0; /* Denim Blue */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.results {
+  padding-top: 20px;
+}
+
+.slider {
+  margin-bottom: 40px;
+  margin-top: 120px;
+  -webkit-appearance: none;
+  height: 25px;
+  outline: none;
+  -webkit-transition: .2s;
+  /* transition: opacity .2s; */
+  border-radius: 75px;
+}
+
+.tempSlider {
+  background-image: linear-gradient(to right, blue, orange, red);
+}
+
+.windSlider {
+  background-image: linear-gradient(to right, #63aae3, #0b173a);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 35px;
+  background: #474f5f;
+  cursor: pointer;
+}
+
+.emptyDiv { height: 40px; }
+
+.radio-toolbar {
+  margin: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+  display:none;
+}
+
+.radio-toolbar label {
+  background-color: #d9dbe0;
+  padding: 15px 35px;
+  font-family:'Oswald';
+  font-size: 25px;
+  border-radius: 75px;
+}
+
+.cloudRadio label {
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.precipRadio label {
+  margin-right: 61px;
+  margin-left: 61px;
+}
+
+.radio-toolbar label:hover {
+  background-color: #a5b4c9;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+  color: #dc6728; /* golden orange */
+  background-color: #474f5f;
+  background-color: #a5b4c9;
+}
+
+.button {
+  background-color: #d9dbe0;
+  padding: 15px 35px;
+  font-family:'Oswald';
+  font-size: 25px;
+  border-radius: 75px;
+}
+
+.button:active {
+  outline: none;
+}
+
+.button:hover {
+  background-color: #a5b4c9;
+}
+
+.button:focus {
+  outline: none;
+  color: #dc6728; /* golden orange */
+  background-color: #474f5f;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
